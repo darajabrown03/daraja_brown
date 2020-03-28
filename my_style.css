@@ -1,6 +1,16 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  color: #bfd9d6
+}
+
 .column_1 {
   color:#BFD9D6
 }
+
 img{
   width:554px;
   height:554px;
