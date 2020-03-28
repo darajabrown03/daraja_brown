@@ -1,8 +1,4 @@
-.row {
-  display: flex;
-}
-
-.column {
+#left_column {
   color: #bfd9d6
 }
 
