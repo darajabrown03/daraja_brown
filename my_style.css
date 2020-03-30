@@ -1,6 +1,8 @@
-background-color: #bfd9d6
+background-color: #bfd9d6;
 img{
   width:554px;
   height:554px;
 }
-
+#column2 {
+  background-color: #ae9052;
+}
