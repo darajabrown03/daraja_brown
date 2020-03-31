@@ -46,10 +46,17 @@
 .icon-bar a:hover {
   background-color: #000; /* Add a hover color */
 }
+  
+.icon-active a {
+  color: #ae9052;
+}
+  
+/* div .active{
+  
+}  */
 
 .active {
   background-color: #bfd9d6; /* Add an active/current color */
-  color: #ae9052;
 }
 hr.solid {
   border-top: 2px solid #000;
@@ -77,7 +84,7 @@ h1 {
 <body>
 
 <div class="icon-bar">
-  <a class="active" href="#"><i class="fa fa-home"></i></a>
+  <div class="icon-active"><a class="active" href="#"><i class="fa fa-home"></i></a></div>
   <a href="#"><i class="fa fa-search"></i></a>
   <a href="#"><i class="fa fa-envelope"></i></a>
   <a href="#"><i class="fa fa-globe"></i></a>
